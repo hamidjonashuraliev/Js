@@ -113,3 +113,49 @@
 //             default:
 //                 alert('Sizi yoshiz nomalum')
 // }
+
+
+// function
+//  function decloration
+// function myFirstFunction(name) {
+//     console.log(`Hi my name is ${name}`);
+// }
+// myFirstFunction('badboy')
+
+
+// //  function expressin
+// let myFunc = function () {
+//     console.log('This function is expression');
+// }
+// myFunc()
+
+function myFirstApp(name, age) {
+    alert(`hi my name is $(name) and i am full-stack developer`)
+
+ function showSkills(){
+    let skills = ['Html', 'Css','Javascript']
+    for (let i = 0; i < skills.length; i++){
+        alert(`You have skills ${skills[i]}`)
+    }
+}
+ showSkills()
+
+ function checkAge() {
+ let age = prompt('Yoshingiz nechchida?')
+if(age > 18){
+    alert('Exactly data for learning IT')
+}else{
+    alert('Super data for learning IT')
+}
+
+}
+checkAge()
+ 
+
+ function calcPow(num) {
+    return num * num
+ }
+ console.log(calcPow(5));
+}
+myFirstApp('Badboy', 30)
+git
