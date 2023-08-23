@@ -88,3 +88,28 @@
 //     answers[i] = prompt (questions[i])
 // }
 // console.log(answers);
+
+// if else
+
+// let age = prompt ( 'Yoshingiz nechchida?')
+
+// if(age <= 18) {
+//     alert('Hali erta')
+// } else if (age > 80) {
+//     alert('uje kech')
+// }else{
+//     alert('Hush kelibsiz')
+// }
+
+// switch case
+// let age = +prompt('Yoshingiz nechida ?')
+// switch (age) {
+//     case 18:
+//         alert('Sizi yoshiz 18da')
+//         break
+//         case 50:
+//             alert('Sizi yoshiz 50da')
+//             break
+//             default:
+//                 alert('Sizi yoshiz nomalum')
+// }
