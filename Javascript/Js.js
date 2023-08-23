@@ -14,13 +14,17 @@
 
 // for loop
 // first way
+// for (let i = 0; i <= 10; i++){
+//     console.log(i);
+// }
+
+
 // let answers = []
 // let questions = [
 //     "What is your name",
 //     "What is your phone",
 //     "How old are you"
 // ]
-
 
 // for (let i = 0; i < questions.length; i++) {
 // answers[i] = prompt (questions[i])
@@ -28,12 +32,20 @@
 //     console.log(answers);
 
 // second way
+// let i = 0;
+// do {
+//     console.log(i);
+//     i++
+// }while(i <= 10)
+
+
 // let answers = []
 // let questions = [
 //     "What is your name",
 //     "What is your phone",
 //     "How old are you"
 // ]
+
 // let i = 0; 
 // do { answers[i] = prompt (questions[i])
 //     console.log(answers);
@@ -42,12 +54,20 @@
 
 
 // third way
+// let i = 0
+// while(i <= 10){
+//     console.log(i);
+//     i++
+// }
+
+
 // let answers = []
 // let questions = [
 //     "What is your name",
 //     "What is your phone",
 //     "How old are you"
 // ]
+
 // let i = 0 
 // while(i < questions.length ) {
 //     console.log(answers);
