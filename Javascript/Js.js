@@ -1,4 +1,4 @@
-// " use strict";
+" use strict";
 // // const number = 10;
 
 // // console.log(number);
@@ -129,33 +129,76 @@
 // }
 // myFunc()
 
-function myFirstApp(name, age) {
-    alert(`hi my name is $(name) and i am full-stack developer`)
+// function myFirstApp(name, age) {
+//     alert(`hi my name is $(name) and i am full-stack developer`)
 
- function showSkills(){
-    let skills = ['Html', 'Css','Javascript']
-    for (let i = 0; i < skills.length; i++){
-        alert(`You have skills ${skills[i]}`)
-    }
-}
- showSkills()
+//  function showSkills(){
+//     let skills = ['Html', 'Css','Javascript']
+//     for (let i = 0; i < skills.length; i++){
+//         alert(`You have skills ${skills[i]}`)
+//     }
+// }
+//  showSkills()
 
- function checkAge() {
- let age = prompt('Yoshingiz nechchida?')
-if(age > 18){
-    alert('Exactly data for learning IT')
-}else{
-    alert('Super data for learning IT')
-}
+//  function checkAge() {
+//  let age = prompt('Yoshingiz nechchida?')
+// if(age > 18){
+//     alert('Exactly data for learning IT')
+// }else{
+//     alert('Super data for learning IT')
+// }
 
-}
-checkAge()
+// }
+// checkAge()
  
 
- function calcPow(num) {
-    return num * num
- }
- console.log(calcPow(5));
-}
-myFirstApp('Badboy', 30)
-git
+//  function calcPow(num) {
+//     return num * num
+//  }
+//  console.log(calcPow(5));
+// }
+// myFirstApp('Badboy', 30)
+
+
+// object
+// const theif = {
+//     age: 30, // number
+//     jacet: 'black', //string
+//     isLong: false, //boolean
+// }; 
+// console.log(theif);
+
+//Array
+// const colors = ["red", "black", "blue", 10, [], {}];
+// console.log(colors[3]);
+
+// Amaliyot uyga vazifa
+const numberOfSeries = prompt("Nechta serial ko'rdingiz?");
+ 
+const seriesDB = {
+    count: numberOfSeries,
+    series: {},
+    actors: {},
+    genres: [],
+    private: false,
+};
+const a = prompt("Oxirgi ko'rgan serialingiz?"),
+b = prompt("Nechchi baho berasiz?"),
+c = prompt("Oxirgi ko'rgan serialingiz?"),
+d = prompt("Nechchi baho berasiz?");
+seriesDB.series[a] = b;
+seriesDB.series[c] = d;
+
+console.log(seriesDB);
+
+
+ 
+
+
+
+
+
+
+
+
+
