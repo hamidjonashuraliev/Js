@@ -173,24 +173,67 @@
 // console.log(colors[3]);
 
 // Amaliyot uyga vazifa
-const numberOfSeries = prompt("Nechta serial ko'rdingiz?");
+// const numberOfSeries = prompt("Nechta serial ko'rdingiz?");
  
-const seriesDB = {
-    count: numberOfSeries,
-    series: {},
-    actors: {},
-    genres: [],
-    private: false,
-};
-const a = prompt("Oxirgi ko'rgan serialingiz?"),
-b = prompt("Nechchi baho berasiz?"),
-c = prompt("Oxirgi ko'rgan serialingiz?"),
-d = prompt("Nechchi baho berasiz?");
-seriesDB.series[a] = b;
-seriesDB.series[c] = d;
+// const seriesDB = {
+//     count: numberOfSeries,
+//     series: {},
+//     actors: {},
+//     genres: [],
+//     private: false,
+// };
+// const a = prompt("Oxirgi ko'rgan serialingiz?"),
+// b = prompt("Nechchi baho berasiz?"),
+// c = prompt("Oxirgi ko'rgan serialingiz?"),
+// d = prompt("Nechchi baho berasiz?");
+// seriesDB.series[a] = b;
+// seriesDB.series[c] = d;
 
-console.log(seriesDB);
+// console.log(seriesDB);
 
+// Shartli operatorlar
+// 1 if else
+// const age = +prompt("How old are you?");
+
+// if( age > 18) {
+//     console.log("Welcome");
+// } else {
+//     console.log("No entry");
+// }
+
+// 2 if else if else
+
+// const age = +prompt("How old are you?");
+// if(age > 25 ) {
+//     console.log("Horroe fils");
+// } else if ( age > 18 && age < 25) {
+// console.log("Boyevik films");
+// } else {
+//     console.log("Carton");
+// }
+
+// 3 ternary operator
+
+// const age = +prompt("How old are you?");
+// age > 25 ? console.log("Horroe films") : console.log("Carton");
+
+//  swith case 
+
+// const color = "green";
+// switch (color) {
+//     case "red": 
+//  console.log("Stop");        
+//         break;
+// case "green": 
+// console.log("Goo");
+// break;
+// case "yellow":
+// console.log("Slowly");
+// break;
+// default:
+//     console.log("Traffic jam");
+//         break;
+// }
 
  
 
