@@ -234,10 +234,43 @@
 //     console.log("Traffic jam");
 //         break;
 // }
+//  tsikl 
+// while
+//  let startNum = 1;
+// //  First
+//   while (startNum <= 10) {
+//     console.log(startNum);
+//     startNum++;
+//   }
 
- 
+//   do while
+// let startNum = 1;
+// do {
+//     console.log(startNum);
+//     startNum++;
+// } while (startNum <= 13); 
+
+//  for loop
+// let startNum = 1;
+// for(let i = 1; i <= 9; i++) {
+//     console.log(i);
+// }
 
 
+// let Num = 11;
+// for(let i = 1; i <= 5; i++) {
+//     console.log(Num);
+//     Num++;
+// }
+
+//  contiune   // break
+// for(let i = 1; i <= 5; i++) {
+//     if (i === 3) {
+//         // break
+//         continue;;
+//     }
+//     console.log(i);
+// }
 
 
 
