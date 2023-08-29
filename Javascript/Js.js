@@ -274,39 +274,48 @@
 
 
 // Amaliyot uyga vazifa 2
-const numberOfSeries = prompt("Nechta serial ko'rdingiz?");
+// const numberOfSeries = prompt("Nechta serial ko'rdingiz?");
  
-const seriesDB = {
-    count: numberOfSeries,
-    series: {},
-    actors: {},
-    genres: [],
-    private: false,
-};
+// const seriesDB = {
+//     count: numberOfSeries,
+//     series: {},
+//     actors: {},
+//     genres: [],
+//     private: false,
+// };
 
-for (let i = 0; i < 2; i++){
-    const a = prompt("Oxirgi ko'rgan serialingiz?"),
-b = prompt("Nechchi baho berasiz?");
+// for (let i = 0; i < 2; i++){
+//     const a = prompt("Oxirgi ko'rgan serialingiz?"),
+// b = prompt("Nechchi baho berasiz?");
 
-if (a != null && b != null && a  != "" && b != "") {
-    seriesDB.series[a] = b;
-    console.log('done');
-} else {
-    console.log('error');
-    i--;
- }
+// if (a != null && b != null && a  != "" && b != "") {
+//     seriesDB.series[a] = b;
+//     console.log('done');
+// } else {
+//     console.log('error');
+//     i--;
+//  }
+// }
+// if (seriesDB.count < 5) {
+//     console.log("Kam serial ko'ribsiz");
+// } else if (seriesDB.count >= 5 && seriesDB.count < 10) {
+//     console.log("Siz classik tomoshabin ekansiz");
+// } else if (seriesDB.count >= 10) {
+//     console.log("Siz serialchi zvezda ekansiz");
+// } else {
+// console.log("Error");
+// }
+// console.log(seriesDB);
+
+
+
+
+// Function ES6
+console.log("Open modal");
+function calc(a, b) {
+console.log(a+b);
 }
-if (seriesDB.count < 5) {
-    console.log("Kam serial ko'ribsiz");
-} else if (seriesDB.count >= 5 && seriesDB.count < 10) {
-    console.log("Siz classik tomoshabin ekansiz");
-} else if (seriesDB.count >= 10) {
-    console.log("Siz serialchi zvezda ekansiz");
-} else {
-console.log("Error");
-}
-console.log(seriesDB);
-
-
+calc(10,5);
+calc(9, 10)
 
 
