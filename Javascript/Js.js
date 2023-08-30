@@ -339,3 +339,43 @@
 // const calc = (a, b) => a + b;
 // console.log(calc(10, 5));
 
+// Method Property
+// String property
+const user = "badboy";
+console.log(user.length);
+
+const arr = [1, 2, 3, 4, 5];
+console.log(arr.length);
+
+const user = "badboy";
+console.log(user[3]);
+
+ Method
+  toUpperCase
+const user = "badboy";
+console.log(user.toUpperCase());
+console.log(user);
+
+
+const greeting = "Hello World";
+console.log(greeting.indexOf("W"));
+
+const greeting = "Hello World";
+console.log(greeting.slice(2, 7)); 
+
+const greeting = "Hello World";
+console.log(greeting.substring(6, 11));
+
+const greeting = "Hello World";
+console.log(greeting.substr(6, 3));
+
+// Number
+// round
+const num = 8.8 ;
+ console.log(Math.round(num));
+
+ const borderWidth = "15.8px";
+ console.log(parseInt(borderWidth));
+
+ const borderWidth = "15.8px";
+ console.log(parseFloat(borderWidth));
