@@ -311,11 +311,31 @@
 
 
 // Function ES6
-console.log("Open modal");
-function calc(a, b) {
-console.log(a+b);
-}
-calc(10,5);
-calc(9, 10)
+// console.log("Open modal");
+// function calc(a, b) {
+// console.log(a+b);
+// }
+// calc(10,5);
+// calc(9, 10)
 
+
+//  function decloration 
+// const  sumOfAandB = calc(10, 5);
+// console.log(sumOfAandB);
+// function calc(a, b) {
+// return a+b;    
+// }
+
+//  function exression
+
+
+// const logger = function () {
+//     console.log("Hello world");
+// };
+// logger();
+
+//  arrow function
+
+// const calc = (a, b) => a + b;
+// console.log(calc(10, 5));
 
