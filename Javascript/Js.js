@@ -341,41 +341,87 @@
 
 // Method Property
 // String property
-const user = "badboy";
-console.log(user.length);
+// const user = "badboy";
+// console.log(user.length);
 
-const arr = [1, 2, 3, 4, 5];
-console.log(arr.length);
+// const arr = [1, 2, 3, 4, 5];
+// console.log(arr.length);
 
-const user = "badboy";
-console.log(user[3]);
+// const user = "badboy";
+// console.log(user[3]);
 
- Method
-  toUpperCase
-const user = "badboy";
-console.log(user.toUpperCase());
-console.log(user);
+//  Method
+//   toUpperCase
+// const user = "badboy";
+// console.log(user.toUpperCase());
+// console.log(user);
 
 
-const greeting = "Hello World";
-console.log(greeting.indexOf("W"));
+// const greeting = "Hello World";
+// console.log(greeting.indexOf("W"));
 
-const greeting = "Hello World";
-console.log(greeting.slice(2, 7)); 
+// const greeting = "Hello World";
+// console.log(greeting.slice(2, 7)); 
 
-const greeting = "Hello World";
-console.log(greeting.substring(6, 11));
+// const greeting = "Hello World";
+// console.log(greeting.substring(6, 11));
 
-const greeting = "Hello World";
-console.log(greeting.substr(6, 3));
+// const greeting = "Hello World";
+// console.log(greeting.substr(6, 3));
 
-// Number
-// round
-const num = 8.8 ;
- console.log(Math.round(num));
+// // Number
+// // round
+// const num = 8.8 ;
+//  console.log(Math.round(num));
 
- const borderWidth = "15.8px";
- console.log(parseInt(borderWidth));
+//  const borderWidth = "15.8px";
+//  console.log(parseInt(borderWidth));
 
- const borderWidth = "15.8px";
- console.log(parseFloat(borderWidth));
+//  const borderWidth = "15.8px";
+//  console.log(parseFloat(borderWidth));
+
+
+// Amaliyot uyga vazifa 3
+let numberOfSeries;
+ function startApp() {
+ numberOfSeries = prompt("Nechta serial ko'rdingiz?", "");
+ while(numberOfSeries == "" ||
+  numberOfSeries == null ||
+   isNaN(numberOfSeries) 
+   ) {
+  numberOfSeries = prompt("Nechta serial ko'rdingiz?", "");
+ }
+ }
+
+ startApp();
+const seriesDB = {
+    count: numberOfSeries,
+    series: {},
+    actors: {},
+    genres: [],
+    private: false,
+};
+
+for (let i = 0; i < 2; i++){
+    const a = prompt("Oxirgi ko'rgan serialingiz?"),
+b = prompt("Nechchi baho berasiz?");
+
+if (a != null && b != null && a  != "" && b != "") {
+    seriesDB.series[a] = b;
+    console.log('done');
+} else {
+    console.log('error');
+    i--;
+ }
+}
+if (seriesDB.count < 5) {
+    console.log("Kam serial ko'ribsiz");
+} else if (seriesDB.count >= 5 && seriesDB.count < 10) {
+    console.log("Siz classik tomoshabin ekansiz");
+} else if (seriesDB.count >= 10) {
+    console.log("Siz serialchi zvezda ekansiz");
+} else {
+console.log("Error");
+}
+console.log(seriesDB);
+
