@@ -433,20 +433,47 @@
 // console.log(firstName);
 // console.log(str);
 
-const car = {
-    motor: "X",
-    color: 'red',
-    isAirbag: true,
-    isSpeed: function () {
-        console.log(320);
-    },
+// const car = {
+//     motor: "X",
+//     color: 'red',
+//     isAirbag: true,
+//     isSpeed: function () {
+//         console.log(320);
+//     },
+// }
+
+// const gm = {
+//     isAirbag: false,
+// }
+
+// // Object.setPrototypeOf(gm, car)
+// const bmw = Object.create(car)
+
+// console.log(bmw);
+
+
+// dynamic  typing
+// to number 
+// 1)
+console.log(typeof Number ('5'));
+
+// 2)
+console.log(typeof +'7');
+
+// 3)
+console.log(typeof  parseInt('22'));
+
+//  to boolean
+// 0, "", null, undefined, NN = har doim false 
+let age = 0
+if (age) {
+    console.log('g');
+}
+age =  20
+if (age) {
+    console.log('g');
 }
 
-const gm = {
-    isAirbag: false,
-}
+console.log(typeof Boolean ('5'));
 
-// Object.setPrototypeOf(gm, car)
-const bmw = Object.create(car)
-
-console.log(bmw);
+console.log(typeof !! '6');
