@@ -1,4 +1,4 @@
-" use strict";
+// " use strict";
 // // const number = 10;
 
 // // console.log(number);
@@ -382,46 +382,71 @@
 
 
 // Amaliyot uyga vazifa 3
-let numberOfSeries;
- function startApp() {
- numberOfSeries = prompt("Nechta serial ko'rdingiz?", "");
- while(numberOfSeries == "" ||
-  numberOfSeries == null ||
-   isNaN(numberOfSeries) 
-   ) {
-  numberOfSeries = prompt("Nechta serial ko'rdingiz?", "");
- }
- }
+// let numberOfSeries;
+//  function startApp() {
+//  numberOfSeries = prompt("Nechta serial ko'rdingiz?", "");
+//  while(numberOfSeries == "" ||
+//   numberOfSeries == null ||
+//    isNaN(numberOfSeries) 
+//    ) {
+//   numberOfSeries = prompt("Nechta serial ko'rdingiz?", "");
+//  }
+//  }
 
- startApp();
-const seriesDB = {
-    count: numberOfSeries,
-    series: {},
-    actors: {},
-    genres: [],
-    private: false,
-};
+//  startApp();
+// const seriesDB = {
+//     count: numberOfSeries,
+//     series: {},
+//     actors: {},
+//     genres: [],
+//     private: false,
+// };
 
-for (let i = 0; i < 2; i++){
-    const a = prompt("Oxirgi ko'rgan serialingiz?"),
-b = prompt("Nechchi baho berasiz?");
+// for (let i = 0; i < 2; i++){
+//     const a = prompt("Oxirgi ko'rgan serialingiz?"),
+// b = prompt("Nechchi baho berasiz?");
 
-if (a != null && b != null && a  != "" && b != "") {
-    seriesDB.series[a] = b;
-    console.log('done');
-} else {
-    console.log('error');
-    i--;
- }
+// if (a != null && b != null && a  != "" && b != "") {
+//     seriesDB.series[a] = b;
+//     console.log('done');
+// } else {
+//     console.log('error');
+//     i--;
+//  }
+// }
+// if (seriesDB.count < 5) {
+//     console.log("Kam serial ko'ribsiz");
+// } else if (seriesDB.count >= 5 && seriesDB.count < 10) {
+//     console.log("Siz classik tomoshabin ekansiz");
+// } else if (seriesDB.count >= 10) {
+//     console.log("Siz serialchi zvezda ekansiz");
+// } else {
+// console.log("Error");
+// }
+// console.log(seriesDB);
+
+
+// OOP obektga yunaltirilgan dasturlash
+
+// const firstName  = "badboy"
+// const str  = new String(firstName)
+// console.log(firstName);
+// console.log(str);
+
+const car = {
+    motor: "X",
+    color: 'red',
+    isAirbag: true,
+    isSpeed: function () {
+        console.log(320);
+    },
 }
-if (seriesDB.count < 5) {
-    console.log("Kam serial ko'ribsiz");
-} else if (seriesDB.count >= 5 && seriesDB.count < 10) {
-    console.log("Siz classik tomoshabin ekansiz");
-} else if (seriesDB.count >= 10) {
-    console.log("Siz serialchi zvezda ekansiz");
-} else {
-console.log("Error");
-}
-console.log(seriesDB);
 
+const gm = {
+    isAirbag: false,
+}
+
+// Object.setPrototypeOf(gm, car)
+const bmw = Object.create(car)
+
+console.log(bmw);
