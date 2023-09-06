@@ -455,25 +455,57 @@
 // dynamic  typing
 // to number 
 // 1)
-console.log(typeof Number ('5'));
+// console.log(typeof Number ('5'));
 
-// 2)
-console.log(typeof +'7');
+// // 2)
+// console.log(typeof +'7');
 
-// 3)
-console.log(typeof  parseInt('22'));
+// // 3)
+// console.log(typeof  parseInt('22'));
 
-//  to boolean
-// 0, "", null, undefined, NN = har doim false 
-let age = 0
-if (age) {
-    console.log('g');
-}
-age =  20
-if (age) {
-    console.log('g');
-}
+// //  to boolean
+// // 0, "", null, undefined, NN = har doim false 
+// let age = 0
+// if (age) {
+//     console.log('g');
+// }
+// age =  20
+// if (age) {
+//     console.log('g');
+// }
 
-console.log(typeof Boolean ('5'));
+// console.log(typeof Boolean ('5'));
 
-console.log(typeof !! '6');
+// console.log(typeof !! '6');
+
+
+// DOM bilan ishlash
+
+
+class Wallet {
+    //states
+    owner;
+    amount;
+    currency;
+    
+    
+    //constructor
+    constructor(ism, summa, valyuta) {
+      this.owner = ism;
+      this.amount = summa;
+      this.currency = valyuta;
+    }
+    
+    //methods
+    checkBalance() {
+  console.log('Hi ${this.owner}, your balance: ${this.amount} ${this.currency{');
+    }
+    
+    deposit(money) {
+      this.amount = this.amount + money;
+    }
+  }
+  
+  
+  const myPocket = new Wallet('david', 1000, 'usd');
+  myPocket.checkBalance();
