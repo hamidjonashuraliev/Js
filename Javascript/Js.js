@@ -1,4 +1,4 @@
-// " use strict";
+" use strict";
 // // const number = 10;
 
 // // console.log(number);
@@ -482,30 +482,36 @@
 // DOM bilan ishlash
 
 
-class Wallet {
-    //states
-    owner;
-    amount;
-    currency;
+// class Wallet {
+//     //states
+//     owner;
+//     amount;
+//     currency;
     
     
-    //constructor
-    constructor(ism, summa, valyuta) {
-      this.owner = ism;
-      this.amount = summa;
-      this.currency = valyuta;
-    }
+//     //constructor
+//     constructor(ism, summa, valyuta) {
+//       this.owner = ism;
+//       this.amount = summa;
+//       this.currency = valyuta;
+//     }
     
-    //methods
-    checkBalance() {
-  console.log('Hi ${this.owner}, your balance: ${this.amount} ${this.currency{');
-    }
+//     //methods
+//     checkBalance() {
+//   console.log('Hi ${this.owner}, your balance: ${this.amount} ${this.currency{');
+//     }
     
-    deposit(money) {
-      this.amount = this.amount + money;
-    }
-  }
+//     deposit(money) {
+//       this.amount = this.amount + money;
+//     }
+//   }
   
   
-  const myPocket = new Wallet('david', 1000, 'usd');
-  myPocket.checkBalance();
+//   const myPocket = new Wallet('david', 1000, 'usd');
+//   myPocket.checkBalance();
+
+
+//  hosidalar bilan ishlash
+
+
+
